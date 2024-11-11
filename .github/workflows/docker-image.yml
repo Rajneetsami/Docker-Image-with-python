@@ -31,5 +31,5 @@ jobs:
 
     # Optionally, push the image to Docker Hub
     - name: Push the Docker image
-      run: docker push ektuhi/dockerdemo2:latest
+      run: docker push ektuhi/dockerdemo2:latest --file Dockerfile
       if: github.event_name == 'push'
