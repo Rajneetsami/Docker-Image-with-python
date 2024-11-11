@@ -27,9 +27,9 @@ jobs:
 
     # Build the Docker image
     - name: Build the Docker image
-      run: docker build -t ektuhi/dockerdemo2 .
+      run: docker build -t ektuhi123/dockerdemo2 .
 
     # Optionally, push the image to Docker Hub
     - name: Push the Docker image
-      run: docker push ektuhi/dockerdemo2:latest --file Dockerfile
-      if: github.event_name == 'push'
+      run: docker push ektuhi123/dockerdemo2:latest 
+    
